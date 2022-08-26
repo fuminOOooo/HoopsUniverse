@@ -1,0 +1,17 @@
+@media only screen and (min-width: 1080px) {
+    .header{
+        height: 100px;
+    }
+
+    .classlu{
+        height: 40px;
+        width: 80px;
+    }
+    .slide{
+        width: 60px;
+    }
+    .d1{
+        font-size: 50px;
+    }
+   
+}

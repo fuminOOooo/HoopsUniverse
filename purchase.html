@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Form</title>
+    <script src="purchasescript.js" defer async></script>
+    <link rel="stylesheet" href="purchasestyle.css">
+</head>
+<header class="header">
+    <div class="logo">
+        <img src="Logo1.png" alt="">
+    </div>
+    <div class="navigator">
+        <button class="classlu" onclick="myFunction()"></button>
+        <div id="drop" class="test">
+            <div class="d1">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="d1">
+                <a href="shoes.html">Shoes</a>
+            </div>
+            <div class="d1">
+                <a href="ACCESORIES.html">Accescories</a>
+            </div>
+            <div class="d1">
+                <a href="FAQ.html">FAQ</a>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+    <div class="productimg">
+        <img src="https://cf.shopee.co.id/file/107eb8626647d3ad3fc01b36ebd33f56" alt="">
+    </div>
+    
+    <div class="productdetails">
+        <p>Best nike hoodie ever</p>
+        <p>Product code: RX124570</p>
+        <p>Harga : Rp.400.000,00</p>
+    </div>
+        <form action="" id= "myForm">
+            <h1>Purchase Form</h1>
+
+                <div class="customername">
+                    <input type="text" placeholder="Customer Name" name="customerName">
+                </div>
+
+                <div class="customerphone">
+                    <input type="text" placeholder="Phone Number" name="customerPhone">
+                </div>
+
+                 <div class="customeremail">
+                     <input type="text" placeholder ="Email" name="customerEmail">
+                </div>
+                        
+                <div class="customergender">Gender
+                    <select name="customerGender" id="">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                            
+                <div class="customerage">
+                    <input type = "text" placeholder ="Age" name="customerAge">
+                </div>
+                    
+                <div class="customerdistrict">
+                    <input type="text" placeholder = "Disctrict" name="customerDistrict">
+                </div>
+                        
+                <div class="customeraddress">
+                    <input type="text" placeholder="Address" name="customerAddress">
+                </div>
+                       
+                <div class="customerpostal">
+                    <input type="text" placeholder="Postal Code" name="customerPostal">
+                </div>
+                       
+                <div class="customernotes">Additional Notes:<br>
+                    <textarea name="customerNotes" rows="10" cols="50"></textarea>
+                </div>
+                
+                <div class="submitbutton">
+                   <button type="submit">
+                       Submit
+                   </button>    
+                </div>
+        </form>
+        
+</body>
+<!-- <script src="main.js"></script> -->
+<script src="node.js"> </script>
+
+</html>
